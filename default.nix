@@ -9,7 +9,7 @@ pkgs.stdenv.mkDerivation {
     owner = "Askodon";
     repo = "ehh";
     rev = "main"; 
-    sha256 = "sha256-KwLNMXMXIUcgKluTG6RBv1kGgfxQd4GGbTC5k6T/8u4="; 
+    sha256 = "sha256-Ay0yQ3QGDqUeEc/LCmKjuxR/XFNvZQAXjv8cWN5MnUs="; 
   };
 
   propagatedUserEnvPkgs = [ pkgs.gum pkgs.just pkgs.lua ];

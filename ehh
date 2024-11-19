@@ -8,7 +8,7 @@ print([[
  |______|_| |_|_| |_| |_|  |_|\___|_| |_|\__,_|  
 ]])
 
-local path = "/home/askodon/nixos-conf/"
+local path = "~/nixos-conf/"
 
 -- Func to execute and get stdout
 function run_command(command)
