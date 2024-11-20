@@ -29,5 +29,5 @@ selected_task = selected_task:gsub("\n", "")
 if selected_task ~= "" then
     run_command("cd " .. path .. " && just " .. selected_task)
 else
-    print("Не выбрана ни одна задача.")
+    print("Exit.")
 end
